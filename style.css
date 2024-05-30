@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.row-container{
+    border: 1px solid green;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    
+   
+}
+#container{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+   
+    height: 500px;
+    width: 500px
+}
+.grid-item{
+    border: 1px solid pink;
+}
