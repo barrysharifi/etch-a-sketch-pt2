@@ -1,24 +1,35 @@
-body{
+body {
+    margin-top: 100px;
+    padding: 0;
     display: flex;
     justify-content: center;
-    margin-top: 100px;
-}
-.row-container{
-    border: 1px solid green;
-    height: 40px;
-    display: flex;
-    justify-content: space-between;
+    align-items: center;
     
-   
 }
-#container{
-    border: 1px solid black;
+
+#container {
     display: flex;
     flex-direction: column;
-   
     height: 500px;
     width: 500px
 }
-.grid-item{
-    border: 1px solid pink;
+
+.row-container {
+    display: flex;
+}
+
+.grid-item {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black; /* Add borders */
+    box-sizing: border-box; /* Include borders in size */
+}
+
+.grid-item:hover{
+    background-color: black;
+}
+.new-box-color{
+    height: 100%;
+    width: 100%;
+    background-color: black;
 }
