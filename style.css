@@ -9,7 +9,7 @@ body {
 
 #container {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     height: 500px;
     width: 500px
 }
