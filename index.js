@@ -44,5 +44,13 @@ createGrid(16)
 const resetButton = document.querySelector('.reset-button')
 resetButton.addEventListener("click", getSize)
 
-
+function clearBoard() {
+    let gridItems = document.querySelectorAll('.grid-item')
+    gridItems.forEach(gridItem =>{
+        gridItem.innerHTML = ''
+    })
+}
+let clearButton = document.querySelector('.clear')
+clearButton.addEventListener("click", clearBoard);
+document.body.insertBefore(clearButton, container);
 
